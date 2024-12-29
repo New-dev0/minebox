@@ -1,0 +1,2 @@
+*js filter=lfs diff=lfs merge=lfs -text
+dist/assets/vendor-DjHqr3hl.js filter=lfs diff=lfs merge=lfs -text

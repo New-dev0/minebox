@@ -1,0 +1,76 @@
+<svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="boxGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Box -->
+  <path
+    d="M20 30L50 15L80 30L80 70L50 85L20 70L20 30Z"
+    fill="url(#boxGradient)"
+    stroke="#8B5CF6"
+    stroke-width="0.5"
+    stroke-opacity="0.3"
+  />
+
+  <!-- 3D Text Group -->
+  <g filter="url(#glow)">
+    <!-- M -->
+    <path
+      d="M35 45L40 42L45 45L45 60M35 45L35 60M45 60L50 57L55 60L55 45L50 42L45 45"
+      stroke="#8B5CF6"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+
+    <!-- B -->
+    <path
+      d="M60 45L65 42L70 45C70 48 65 50 65 50C65 50 70 52 70 55L70 60L65 63L60 60L60 45Z"
+      stroke="#8B5CF6"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+
+    <!-- Connecting Lines -->
+    <g stroke="#8B5CF6" stroke-width="0.5" stroke-opacity="0.5">
+      <path d="M30 65L70 65" />
+      <path d="M35 40L65 40" />
+      <path d="M50 35L50 70" />
+    </g>
+
+    <!-- Glowing Points -->
+    <g fill="#8B5CF6">
+      <circle cx="35" cy="45" r="1" />
+      <circle cx="45" cy="45" r="1" />
+      <circle cx="55" cy="45" r="1" />
+      <circle cx="65" cy="45" r="1" />
+      <circle cx="35" cy="60" r="1" />
+      <circle cx="45" cy="60" r="1" />
+      <circle cx="55" cy="60" r="1" />
+      <circle cx="65" cy="60" r="1" />
+    </g>
+  </g>
+
+  <!-- Border Effect -->
+  <path
+    d="M20 30L50 15L80 30M50 85L50 15"
+    stroke="#8B5CF6"
+    stroke-width="1"
+    stroke-opacity="0.8"
+    fill="none"
+  />
+</svg> 
