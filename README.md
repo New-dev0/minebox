@@ -64,5 +64,5 @@ A 3D social platform with immersive fantasy worlds, real-time messaging, and RPG
 
 If you find MineBox useful, consider supporting its development through GitHub Sponsors. Your support helps maintain the project and add new features!
 
-[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/newdev0)
+[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/new-dev0)
 
